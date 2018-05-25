@@ -1,11 +1,15 @@
 {
   "name": "bisheng-plugin-mermaid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin to generate Mermaid diagrams in Bisheng. ",
   "main": "index.js",
   "repository": "https://github.com/yct21/bisheng-plugin-mermaid",
   "author": "Chutian Yang <yct21@12tcy.com>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "rm lib/* && cp src/node.js lib/node.js && npx babel src/browser.js --out-file lib/browser.js",
+    "publish": "npm publish"
+  },
   "dependencies": {
     "jsonml.js": "^0.1.0",
     "mermaid": "^8.0.0-rc.8"
@@ -13,5 +17,10 @@
   "peerDependencies": {
     "bisheng": "^0.28.3",
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
   }
 }
