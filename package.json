@@ -7,7 +7,7 @@
   "author": "Chutian Yang <yct21@12tcy.com>",
   "license": "MIT",
   "scripts": {
-    "prepublish": "rm lib/* && cp src/node.js lib/node.js && npx babel src/browser.js --out-file lib/browser.js",
+    "prepare": "rm lib/* && cp src/node.js lib/node.js && npx babel src/browser.js --out-file lib/browser.js",
     "publish": "npm publish"
   },
   "dependencies": {
