@@ -1,0 +1,17 @@
+{
+  "name": "bisheng-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chutian Yang <yct21@12tcy.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/bisheng start",
+    "generate": "./node_modules/.bin/bisheng build"
+  },
+  "dependencies": {
+    "bisheng-plugin-mermaid": "^0.0.2",
+    "bisheng-plugin-description": "^0.1.4",
+    "react-document-title": "^2.0.1",
+    "bisheng": "^0.28.3"
+  }
+}
