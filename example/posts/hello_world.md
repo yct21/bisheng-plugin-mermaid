@@ -1,15 +1,14 @@
 ---
-title: Hello world!
-publishDate: 2016-05-05
+title: Test mermaid
+publishDate: 2018-05-30
 tags: 
   - test
+  - mermaid
 ---
 
-The first article which is posted by BiSheng.
+Test mermaid.
 
 ---
-
-# Hello world!
 
 ## trying mermaid in `pre` block
 
@@ -21,18 +20,6 @@ C -->|One| D[Laptop]
 C -->|Two| E[iPhone]
 C -->|Three| F[Car]
 ```
-
-## trying react component plugin
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-## subsequece
 
 ```mermaid
 sequenceDiagram

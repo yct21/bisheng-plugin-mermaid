@@ -10,10 +10,16 @@ Install with `npm`:
 npm install --save bisheng-plugin-mermaid
 ```
 
-or with `yarn`
+or with `yarn`:
 
 ```bash
 yarn add bisheng-plugin-mermaid
+```
+
+Plugin should be put in configuraion of theme in use:
+
+```js
+
 ```
 
 ## Usage
