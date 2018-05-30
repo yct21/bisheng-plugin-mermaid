@@ -1,6 +1,6 @@
 {
   "name": "bisheng-plugin-mermaid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin to generate Mermaid diagrams in Bisheng. ",
   "main": "index.js",
   "repository": "https://github.com/yct21/bisheng-plugin-mermaid",
