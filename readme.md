@@ -19,7 +19,12 @@ yarn add bisheng-plugin-mermaid
 Plugin should be put in configuraion of theme in use:
 
 ```js
-
+// See example/_theme/lib/index.js
+module.exports = {
+  plugins: [
+    'bisheng-plugin-mermaid',
+  ],
+}
 ```
 
 ## Usage
